@@ -1,0 +1,70 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+
+    "buffer_line_height": "comfortable",
+    "terminal": {
+        "dock": "bottom",
+    },
+    "icon_theme": "Colored Zed Icons Theme Dark",
+    "buffer_font_family": "JetBrains Mono",
+    "text_rendering_mode": "subpixel",
+    "agent_ui_font_size": 15.0,
+    "project_panel": {
+        "dock": "right",
+        "auto_fold_dirs": true,
+        "auto_reveal_entries": true,
+        "indent_size": 12,
+        "entry_spacing": "comfortable"
+    },
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false,
+    },
+    "session": {
+        "trust_all_worktrees": true,
+    },
+
+    "base_keymap": "JetBrains",
+    "ui_font_size": 15.0,
+    "buffer_font_size": 13.0,
+    "theme": {
+        "mode": "system",
+        "light": "Ayu Light",
+        "dark": "Ayu Dark",
+    },
+    "lsp": {
+        "vtsls": {
+            "initialization_options": {
+                "typescript": {
+                    "preferences": {
+                        "importModuleSpecifier": "non-relative",
+                        "includeCompletionsForModuleExports": true,
+                        "includeCompletionsWithInsertText": true,
+                    },
+                },
+            },
+        },
+    },
+
+    "format_on_save": "off",
+    "remove_trailing_whitespace_on_save": false,
+    "preferred_line_length": 120,
+    "soft_wrap": "none",
+    "show_wrap_guides": true,
+    "wrap_guides": [120],
+
+    "languages": {
+        "Plain Text": {
+            "language_servers": ["bookmark-language-server"],
+        },
+    },
+    "tab_size": 4,
+    "hard_tabs": false,
+}
